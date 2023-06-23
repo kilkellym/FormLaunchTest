@@ -5,8 +5,9 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:FormLaunchTest"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
-    <Grid>
+             Height="auto"
+             Width="auto">
+    <Grid Margin="50">
         <Button x:Name="btnSelect" Content="Select" Height="25" Width="100" Margin="0,0,250,0" Click="btnSelect_Click"/>
         <Button x:Name="btnFinish" Content="Finish" Height="25" Width="100" Click="btnFinish_Click"/>
     </Grid>

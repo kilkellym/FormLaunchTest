@@ -14,8 +14,6 @@ namespace FormLaunchTest
         internal static void Run(UIApplication uiapp)
         {
             Window1 curWin = new Window1();
-            curWin.Width = 400;
-            curWin.Height = 200;
             curWin.WindowStartupLocation = System.Windows.WindowStartupLocation.CenterScreen;
             curWin.ShowDialog();
 
