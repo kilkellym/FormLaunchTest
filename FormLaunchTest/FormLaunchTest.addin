@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>FormLaunchTest - Command 1</Text>
+    <Description>Some description for FormLaunchTest</Description>
+    <Assembly>FormLaunchTest.dll</Assembly>
+    <FullClassName>FormLaunchTest.Command1</FullClassName>
+    <ClientId>ef4689c1-b3b1-4577-8a83-3fb5c4bcc81c</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Text>FormLaunchTest - Command 2</Text>
+    <Description>Some description for FormLaunchTest</Description>
+    <Assembly>FormLaunchTest.dll</Assembly>
+    <FullClassName>FormLaunchTest.Command2</FullClassName>
+    <ClientId>fbf848e4-3461-4c36-b92d-ba1c7c3ddbc2</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>FormLaunchTest</Name>
+    <Assembly>FormLaunchTest.dll</Assembly>
+    <FullClassName>FormLaunchTest.App</FullClassName>
+    <ClientId>abd763a1-e7c8-431f-8baa-201ca0a77033</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+</RevitAddIns>
